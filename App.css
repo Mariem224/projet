@@ -1,0 +1,114 @@
+/* --- Configuration globale --- */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-image: url("C:\Users\HP\Desktop\pizzatime\pizzatime\frontend\src\AdobeStock_560422609_Preview.jpeg"); /* Remplacez par l'URL de votre image */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */
+  height: 100vh;
+  display: flex;
+
+}
+
+h1, h2, h3, p {
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+form {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgb(246, 243, 243); /* Fond semi-transparent */
+  border-radius: 10px;
+  max-width: 400px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+label, select, input {
+  display: block;
+  margin: 10px auto;
+  width: 80%;
+  text-align: left;
+  color: rgb(9, 9, 9);
+}
+
+/* --- Boutons --- */
+button {
+  background-color: #ff6600; /* Couleur orange chic */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px 5px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+button:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* --- Centrage et alignement --- */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Hauteur de la page entière */
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: rgb(245, 238, 238);
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 18px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* --- Input et Select (Formulaires) --- */
+input, select {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+input:focus, select:focus {
+  outline: none;
+  border: 1px solid #ff6600;
+}
+
+/* --- Sections de récapitulatif --- */
+.summary {
+  padding: 20px;
+  margin: 20px auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+  max-width: 400px;
+}
+
+.summary h2 {
+  color: #ff6600;
+}
